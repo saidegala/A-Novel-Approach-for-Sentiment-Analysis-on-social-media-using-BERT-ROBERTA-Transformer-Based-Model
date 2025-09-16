@@ -27,6 +27,13 @@ The project was implemented as part of our B.Tech in Computer Science & Engineer
 - **Environment**: Jupyter Notebook
 - **Dataset**: [COVID-19 NLP Text Classification (Kaggle)](https://www.kaggle.com/datasets/datatattle/covid-19-nlp-text-classification)
 
+Dataset Description:
+The dataset is taken from Kaggle where
+Train dataset size: 10,255KB(41158 comments)
+Test Data set size: 979KB(3798 comments)
+Attributes: Username, ScreenName, Location, TweetAt, OriginalTweet, Sentiment
+The main features from the dataset ate: OriginalTweet(comment/review) and Sentiment
+Sentiment has values: Extremely Positive,Positive,neutral,negative,Extremely Negative.
 ---
 
 ## 📊 Methodology
@@ -101,5 +108,37 @@ The backend uses the fine-tuned BERT–RoBERTa ensemble model to classify each t
 
 1. Clone this repository  
    ```bash
-   git clone https://github.com/<your-username>/twitter-sentiment-bert-roberta.git
-   cd twitter-sentiment-bert-roberta
+   https://github.com/saidegala/A-Novel-Approach-for-Sentiment-Analysis-on-social-media-using-BERT-ROBERTA-Transformer-Based-Model.git
+   
+   cd A-Novel-Approach-for-Sentiment-Analysis-on-social-media-using-BERT-ROBERTA-Transformer-Based-Model
+
+2. Install dependencies
+   ```bash
+   pip install -r requirements.txt
+
+---
+3. Download the dataset from Kaggle:
+   [COVID-19 NLP Text Classification (Kaggle)](https://www.kaggle.com/datasets/datatattle/covid-19-nlp-text-classification)
+
+---
+
+4. Run Jupyter notebook
+
+jupyter notebook notebooks/SentimentAnalysis.ipynb
+
+
+(Optional) Start Flask web app
+
+cd app
+python app.py
+
+---
+
+📌 Future Enhancements
+
+Extend the model to support multiple domains (product reviews, news, politics)
+
+Deploy the model as a cloud-based API
+
+Experiment with XLNet and DistilBERT for lighter inference
+
