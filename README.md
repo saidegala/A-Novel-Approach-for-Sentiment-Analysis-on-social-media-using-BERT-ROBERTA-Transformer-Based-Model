@@ -27,13 +27,7 @@ The project was implemented as part of our B.Tech in Computer Science & Engineer
 - **Environment**: Jupyter Notebook
 - **Dataset**: [COVID-19 NLP Text Classification (Kaggle)](https://www.kaggle.com/datasets/datatattle/covid-19-nlp-text-classification)
 
-Dataset Description:
-The dataset is taken from Kaggle where
-Train dataset size: 10,255KB(41158 comments)
-Test Data set size: 979KB(3798 comments)
-Attributes: Username, ScreenName, Location, TweetAt, OriginalTweet, Sentiment
-The main features from the dataset ate: OriginalTweet(comment/review) and Sentiment
-Sentiment has values: Extremely Positive,Positive,neutral,negative,Extremely Negative.
+
 ---
 
 ## 📊 Methodology
