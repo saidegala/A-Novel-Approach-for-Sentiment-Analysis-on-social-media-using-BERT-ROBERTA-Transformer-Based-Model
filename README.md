@@ -47,22 +47,33 @@ The project was implemented as part of our B.Tech in Computer Science & Engineer
 ## 🧪 Results
 
 **Training and Validation Accuracy (BERT):**
-![BERT Accuracy](images/bert_accuracy.png)
+
+<img width="715" height="372" alt="image" src="https://github.com/user-attachments/assets/d0369707-17e6-4efa-ac60-b7e6a526aeb2" />
 
 **Training and Validation Loss (BERT):**
-![BERT Loss](images/bert_loss.png)
+
+<img width="661" height="389" alt="image" src="https://github.com/user-attachments/assets/8e931a21-5e9d-46b9-86c6-20b9d8d5048b" />
+
 
 **Confusion Matrix (BERT):**
-![BERT Confusion Matrix](images/bert_confusion.png)
+
+<img width="524" height="333" alt="image" src="https://github.com/user-attachments/assets/6256750f-f853-4b3c-907f-209d7bef2acc" />
+
 
 **Training and Validation Accuracy (RoBERTa):**
-![RoBERTa Accuracy](images/roberta_accuracy.png)
+
+<img width="659" height="344" alt="image" src="https://github.com/user-attachments/assets/e518706a-456d-455a-ac0f-a4d64ec5b8f0" />
+
 
 **Training and Validation Loss (RoBERTa):**
-![RoBERTa Loss](images/roberta_loss.png)
+
+<img width="666" height="342" alt="image" src="https://github.com/user-attachments/assets/1d80522e-c9e3-4a8d-bd09-456939c7f9a2" />
+
 
 **Confusion Matrix (RoBERTa):**
-![RoBERTa Confusion Matrix](images/roberta_confusion.png)
+
+<img width="478" height="244" alt="image" src="https://github.com/user-attachments/assets/9c73be3b-d5b7-409d-9ce3-2db792f65d02" />
+
 
 ---
 
@@ -71,9 +82,18 @@ The project was implemented as part of our B.Tech in Computer Science & Engineer
 We built a **Flask-based web interface** where users can upload a `.csv` file containing tweets.  
 The backend uses the fine-tuned BERT–RoBERTa ensemble model to classify each tweet’s sentiment and shows results on a dashboard.
 
-**Sample Interface:**
-![Web Interface](images/web_ui.png)
-![Results Page](images/results.png)
+**Web Browsing GUI**
+
+<img width="755" height="398" alt="image" src="https://github.com/user-attachments/assets/ffc900eb-181c-4a59-8505-ce342369b5ba" />
+
+---
+
+**Results Page** 
+
+
+<img width="755" height="398" alt="image" src="https://github.com/user-attachments/assets/fb3d3b35-3118-4486-a53e-0379b96070d8" />
+
+---
 
 ---
 
