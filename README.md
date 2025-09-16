@@ -96,39 +96,8 @@ The backend uses the fine-tuned BERT–RoBERTa ensemble model to classify each t
 
 ---
 
----
 
-## 📁 Steps to Reproduce
-
-1. Clone this repository  
-   ```bash
-   https://github.com/saidegala/A-Novel-Approach-for-Sentiment-Analysis-on-social-media-using-BERT-ROBERTA-Transformer-Based-Model.git
-   
-   cd A-Novel-Approach-for-Sentiment-Analysis-on-social-media-using-BERT-ROBERTA-Transformer-Based-Model
-
-2. Install dependencies
-   ```bash
-   pip install -r requirements.txt
-
----
-3. Download the dataset from Kaggle:
-   [COVID-19 NLP Text Classification (Kaggle)](https://www.kaggle.com/datasets/datatattle/covid-19-nlp-text-classification)
-
----
-
-4. Run Jupyter notebook
-
-jupyter notebook notebooks/SentimentAnalysis.ipynb
-
-
-(Optional) Start Flask web app
-
-cd app
-python app.py
-
----
-
-📌 Future Enhancements
+##📌 Future Enhancements
 
 Extend the model to support multiple domains (product reviews, news, politics)
 
