@@ -97,7 +97,7 @@ The backend uses the fine-tuned BERT–RoBERTa ensemble model to classify each t
 ---
 
 
-##📌 Future Enhancements
+## 📌 Future Enhancements
 
 Extend the model to support multiple domains (product reviews, news, politics)
 
